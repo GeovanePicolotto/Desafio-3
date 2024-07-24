@@ -1,6 +1,8 @@
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="w-screen" style={{height:'68vh'}}>
+      
+    </footer>
   )
 }
 
