@@ -3,7 +3,7 @@ import NavBar from "./NavBar"
 const Header = () => {
   return (
     <header className=" flex justify-center items-center w-screen h-36 md:h-20">
-        <div className="flex flex-col gap-4 w-10/12 h-10 justify-center items-center md:flex md:flex-row md:h-10">
+        <div className="flex flex-col gap-4 w-10/12 h-10 justify-center items-center md:flex md:flex-row md:justify-between md:h-10">
             <img src="/src/imgs/furniro_logo.png" alt="Furniro Logo" />
             <NavBar/>
             <div className="flex justify-center items-center w-24 gap-4">
