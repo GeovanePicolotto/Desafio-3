@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 
 const Contact = () => {
@@ -5,6 +6,7 @@ const Contact = () => {
     <div>
       <Header/>
       <h1>CONTACT</h1>
+      <Footer/>
     </div>
   )
 }
