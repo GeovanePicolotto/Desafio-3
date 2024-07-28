@@ -5,7 +5,7 @@ import SocialMedia from "./SocialMedia"
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-between w-screen md:flex md:flex-col md:items-center md:gap-4" style={{height:'600px'}}>
+    <footer className="flex flex-col justify-between w-screen md:flex md:flex-col md:items-center md:gap-4 md:mt-20" style={{height:'600px'}}>
         <div className="flex flex-col gap-5 items-center justify-between w-screen md:flex-row md:w-4/5 md:items-start">
           <div className="flex flex-col gap-5 items-center md:w-[285px] md:h-2/3 md:items-start" style={{fontFamily: 'Poppins, sans-serif'}}>
             <h1 className="text-2xl font-bold" >Furniro.</h1>
