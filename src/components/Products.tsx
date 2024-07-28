@@ -4,7 +4,7 @@ import { ProductProvider } from '../context/ProductContext'; // Ajuste o caminho
 import ShowMore from './ShowMore';
 
 const Products: React.FC = () => {
-  const productIds = [1,11,21,31, 52,52,52,52]; 
+  const productIds = [1,11,21,31, 52,4,59,45]; 
 
   return (
     <div className="flex flex-col items-center mt-24 md:w-screen md:h-[1236px] p-4">
