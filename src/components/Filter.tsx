@@ -34,7 +34,7 @@ const Filter: React.FC<FilterProps> = ({ onFilterChange, onShowAll }) => {
       
       
       {showFilters && (
-        <div className="absolute left-0 mt-2 bg-bannerColor shadow-lg border rounded w-40">
+        <div className="absolute left-0 mt-2 bg-bannerColor shadow-lg border rounded w-40 z-50">
           <button
             onClick={() => handleFilterClick(racks)}
             className="block w-full text-left px-2 py-1 hover:bg-amareloQueimado"
