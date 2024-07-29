@@ -1,6 +1,6 @@
 const Colecao = () => {
   return (
-    <div className="flex justify-center">
+    <div className="hidden md:flex md:justify-center">
         <img src="/src/imgs/coleção.png" alt="" />
     </div>
   )
