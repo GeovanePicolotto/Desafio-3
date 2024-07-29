@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'amareloQueimado': '#B88E2F'
-
+        'amareloQueimado': '#B88E2F',
+        'bannerColor': '#F9F1E7'
             
       },
     },

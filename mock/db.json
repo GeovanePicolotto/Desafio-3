@@ -187,7 +187,7 @@
       "sizes": ["G"],
       "rating": 0.0,
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-65-Polegadas-com-Nichos-Rack-N-2000-1.jpg",
+        "mainImage": "https://static.mobly.com.br/p/Lukaliam-Rack-com-Nichos-Lima-Off-White-Perolizado-e-Tauari-5738-2277811-1.jpg",
         "gallery": [
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-65-Polegadas-com-Nichos-Rack-N-2000-2.jpg",
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-65-Polegadas-com-Nichos-Rack-N-2000-3.jpg",
@@ -220,7 +220,7 @@
       "sizes": ["M", "G"],
       "rating": 4.5,
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Rack-com-Painel-para-TV-atC3A9-55-Polegadas-MDF-1.jpg",
+        "mainImage": "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9655-230445-1.jpg",
         "gallery": [
           "https://static.mobly.com.br/p/Rack-com-Painel-para-TV-atC3A9-55-Polegadas-MDF-2.jpg",
           "https://static.mobly.com.br/p/Rack-com-Painel-para-TV-atC3A9-55-Polegadas-MDF-3.jpg",
@@ -252,7 +252,7 @@
       "sizes": ["G"],
       "rating": 5,
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-70-Polegadas-com-Gavetas-1.jpg",
+        "mainImage": "https://static.mobly.com.br/p/Madesa-Rack-para-TV-atC3A9-75-Polegadas-Madesa-Reims-2-Portas-1-Gaveta---Branco-4150-662887-1.jpg",
         "gallery": [
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-70-Polegadas-com-Gavetas-2.jpg",
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-70-Polegadas-com-Gavetas-3.jpg",
@@ -270,7 +270,7 @@
       "salePrice": 899.99,
       "discountPercentage": 0.40,
       "new": true,
-      "slug": "rack-para-tv-ate-60-polegadas-com-iluminacao",
+      "slug": "rack-para-tv-ate-80-polegadas-com-prateleiras",
       "description": {
         "short": "Iluminação LED para um visual moderno",
         "long": "Este rack é a escolha perfeita para quem deseja um ambiente moderno e bem iluminado. Compatível com TVs de até 60 polegadas, ele conta com iluminação LED integrada que traz um toque especial e sofisticado para a sua sala. Feito com materiais duráveis e acabamento de alta qualidade, garante que sua TV e outros itens estejam bem organizados e com estilo."
@@ -284,7 +284,7 @@
       "sizes": ["G"],
       "rating": 4.5,
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-60-Polegadas-com-IluminaC3A7C3A3o-1.jpg",
+        "mainImage": "https://static.mobly.com.br/p/Lojas-RPM-Rack-Bancada-Estante-Painel-TV-Smart-48-Polegadas-Home-Pequeno-Nicho-Porta-Correr-PC3A9s-Palito-RetrC3B4-Sala-Quarto-Samba-Cinza2FRipado--RPM-3676-9257521-1.jpg",
         "gallery": [
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-60-Polegadas-com-IluminaC3A7C3A3o-2.jpg",
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-60-Polegadas-com-IluminaC3A7C3A3o-3.jpg",
@@ -316,7 +316,7 @@
       "sizes": ["G"],
       "rating": 0.0,
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-80-Polegadas-com-Prateleiras-1.jpg",
+        "mainImage": "https://static.mobly.com.br/p/MultimC3B3veis-Painel-TV-6022-c2F-Espelho-e-Prateleiras-de-Vidro-NairC3B3bi-Plus-MultimC3B3veis-Grafite-5280-6141001-1.jpg",
         "gallery": [
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-80-Polegadas-com-Prateleiras-2.jpg",
           "https://static.mobly.com.br/p/Rack-para-TV-atC3A9-80-Polegadas-com-Prateleiras-3.jpg",
@@ -615,6 +615,39 @@
           "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-5.jpg",
           "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-6.jpg",
           "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-4.jpg"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "sku": "1089207",
+      "title": "Sofá Azul",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Mesa", "Cozinha"],
+      "normalPrice": 3099.99,
+      "salePrice": 1795.46,
+      "discountPercentage": 0.42,
+      "new": true,
+      "slug": "mesa-de-jantar-retangular-macauba-madeira-macica-amendoa",
+      "description": {
+        "short": "Inspirada na beleza e imponência da frutífera palmeira, a Mesa de Jantar Macaúba será a protagonista em sua sala de jantar.",
+        "long": "Inspirada na beleza e imponência da frutífera palmeira, a Mesa de Jantar Macaúba será a protagonista em sua sala de jantar. Com aspecto natural e robusto, a peça valoriza a madeira maciça da estrutura, que não só oferece ótima estabilidade como garante mais durabilidade - o acabamento em verniz ainda protege contra umidade e facilita a limpeza. Feita em linhas retas e madeira grossas, a mesa acomoda até 6 lugares e traz em seu design aquele ar aconchegante de casa de campo ou praia, assim contribui para que seu cantinho na cidade fique mais acolhedor, receptivo e charmoso. Daí é só adquirir boas cadeiras ou, se preferir, comprar também o banco da mesma linha :)"
+      },
+      "colors": [
+        {
+          "name": "Amêndoa",
+          "hex": "#FFEBCD"
+        }
+      ],
+      "sizes": ["M", "G", "EG"],
+      "rating": 4.5,
+      "images": {
+        "mainImage": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Azul-Marinho-180-cm-4562-365248-2.jpg",
+        "gallery": [
+          "https://static.mobly.com.br/p/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1955-2432211-2.jpg",
+          "https://static.mobly.com.br/p/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1955-2432211-4.jpg",
+          "https://static.mobly.com.br/p/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1940-2432211-9.jpg",
+          "https://static.mobly.com.br/p/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1940-2432211-7.jpg"
         ]
       }
     },
@@ -1721,7 +1754,7 @@
       "id": 51,
       "sku": "872147",
       "title": "Escrivaninha Anah",
-      "category": "Mesas",
+      "category": "Escrivaninhas",
       "tags": ["Mesas", "Escritório", "Estudo"],
       "normalPrice": 532.99,
       "salePrice": 377.96,
@@ -1758,7 +1791,7 @@
       "id": 52,
       "sku": "1136791",
       "title": "Escrivaninha Mel",
-      "category": "Mesas",
+      "category": "Escrivaninhas",
       "tags": ["Mesas", "Escritório", "Estudo"],
       "normalPrice": 469.99,
       "salePrice": 240.24,
@@ -1795,7 +1828,7 @@
       "id": 53,
       "sku": "327761",
       "title": "Escrivaninha Mendes",
-      "category": "Mesas",
+      "category": "Escrivaninhas",
       "tags": ["Mesas", "Escritório", "Estudo"],
       "normalPrice": 399.99,
       "salePrice": 224.96,
