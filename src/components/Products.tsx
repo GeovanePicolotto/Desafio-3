@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductCard from './ProductCard'; 
-import { ProductProvider } from '../context/ProductContext'; // Ajuste o caminho conforme necessário
+import { ProductProvider } from '../context/ProductContext'; 
 import ShowMore from './ShowMore';
 
 const Products: React.FC = () => {

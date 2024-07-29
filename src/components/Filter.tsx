@@ -21,9 +21,9 @@ const Filter: React.FC<FilterProps> = ({ onFilterChange, onShowAll }) => {
   };
 
   return (
-    <div className='flex items-center h-[100px] w-screen bg-bannerColor gap-7'>
+    <div className='flex items-center h-[100px] w-screen bg-bannerColor gap-7' style={{ fontFamily: 'Poppins, sans-serif'}}>
      
-     <div className="relative ml-24">
+     <div className="relative md:ml-24">
       <button
         onClick={() => setShowFilters(!showFilters)}
         className="flex gap-2"
@@ -80,15 +80,15 @@ const Filter: React.FC<FilterProps> = ({ onFilterChange, onShowAll }) => {
         </div>
       )}
      </div>
-     <img src="/src/imgs/bartolomeo.png" alt="" />
-     <img src="/src/imgs/messi.png" alt="" />
-     <div className="hidden h-7 border border-gray-400 md:flex"></div>
-     <p>Showing 1–16 of 32 results</p>
+      <img src="/src/imgs/bartolomeo.png" alt="" />
+      <img src="/src/imgs/messi.png" alt="" />
+      <div className="hidden h-7 border border-gray-400 md:flex"></div>
+      <p>Showing 1–16 of 32 results</p>
      
-     <div className='flex items-center gap-4 ml-[497px]'>
-      Show <div className='flex items-center justify-center h-14 w-14 bg-white'>16</div>
-      Short by <div className='flex items-center justify-center h-14 w-44 bg-white'>16</div>
-     </div>
+      <div className='hidden md:flex md:items-center gap-4 md:ml-[497px]'>
+       Show <div className='flex items-center justify-center h-14 w-14 bg-white text-gray-400'>16</div>
+       Short by <div className='flex items-center justify-center h-14 w-44 bg-white text-gray-400'>Default</div>
+      </div>
     </div>
   );
 };
