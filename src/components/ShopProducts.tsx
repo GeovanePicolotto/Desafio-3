@@ -24,11 +24,16 @@ const ShopProducts: React.FC = () => {
     setFilteredProductIds(start);
   };
 
+  const currentCount = filteredProductIds.length;
+  const totalCount = allProductIds.length;
+
   return (
     <div className="flex flex-col items-center md:w-screen">
       <Filter
         onFilterChange={filterByCategory} 
-        onShowAll={showAllProducts} 
+        onShowAll={showAllProducts}
+        currentCount={currentCount}
+        totalCount={totalCount}
       />
 
       <div className="flex flex-wrap md:w-[1236px]">
@@ -42,7 +47,6 @@ const ShopProducts: React.FC = () => {
           <p>No products found.</p>
         )}
       </div>
-      
     </div>
   );
 }
