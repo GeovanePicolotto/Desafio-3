@@ -31,7 +31,7 @@ const SingleProduct: React.FC = () => {
 
   const handleClick = () => {
     if (product && product.id) {
-      navigate(`/product/${product.id}`); // Redirecionar para a página do produto
+      navigate(`/product/${product.id}`); 
     }
   };
 

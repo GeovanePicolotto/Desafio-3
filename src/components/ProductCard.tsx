@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importar useNavigate
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useProduct } from '../context/ProductContext';
 import '../style.css';
 
 const ProductCard: React.FC = () => {
   const { product, loading, error } = useProduct();
   const [hasError, setHasError] = useState(false);
-  const navigate = useNavigate(); // Hook para navegação
+  const navigate = useNavigate(); 
 
-  // URL da imagem de fallback
+  // URL da imagem de fallback, rezar pra ela não precisar ser usada
   const fallbackImage = 'https://th.bing.com/th/id/OIP.o-YG9pqgAWzpXykwjsC9SwHaHa?w=192&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7';
 
   if (loading) {
@@ -29,7 +29,7 @@ const ProductCard: React.FC = () => {
 
   const handleClick = () => {
     if (product && product.id) {
-      navigate(`/product/${product.id}`); // Redirecionar para a página do produto
+      navigate(`/product/${product.id}`);
     }
   };
 
