@@ -1878,13 +1878,7 @@
           "hex": "#654321"
         }
       ],
-      "sizes": [
-        {
-          "height": "75 cm",
-          "width": "180 cm",
-          "depth": "60 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
       "rating": 4.9,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Compace-Escrivaninha-Studio-Carvalho-e-Preta-180-cm-3911-8279301-1.jpg",
@@ -1917,13 +1911,8 @@
           "hex": "#D2B48C"
         }
       ],
-      "sizes": [
-        {
-          "height": "75 cm",
-          "width": "150 cm",
-          "depth": "60 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
+      
       "rating": 4.9,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Modern-Escrivaninha-com-Estante-Studio-Mel-e-Branca-150x75-cm-6751-1280711-1.jpg",
@@ -1956,13 +1945,8 @@
           "hex": "#A0522D"
         }
       ],
-      "sizes": [
-        {
-          "height": "77 cm",
-          "width": "110 cm",
-          "depth": "54 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
+     
       "rating": 5.0,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Tebarrot-Escrivaninha-Old-2-GV-Nature-8886-2056601-1.jpg",
@@ -1999,13 +1983,8 @@
           "hex": "#8B4513"
         }
       ],
-      "sizes": [
-        {
-          "height": "78 cm",
-          "width": "120 cm",
-          "depth": "60 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
+     
       "rating": 5.0,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Fellicci-Moveis-Escrivaninha-Wood-1-GV-Branca-e-Marrom-6058-4809901-1.jpg",
@@ -2038,13 +2017,7 @@
           "hex": "#A0522D"
         }
       ],
-      "sizes": [
-        {
-          "height": "88 cm",
-          "width": "110 cm",
-          "depth": "54 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
       "rating": 4.8,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Tebarrot-Escrivaninha-CalifC3B3rnia-Nature-8882-3056601-1.jpg",
@@ -2081,13 +2054,8 @@
           "hex": "#8B4513"
         }
       ],
-      "sizes": [
-        {
-          "height": "76 cm",
-          "width": "136 cm",
-          "depth": "53 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
+
       "rating": 0.0,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Modern-Escrivaninha-Prism-1-PT-1-GV-Preta-e-Cinamomo-5196-6358611-1.jpg",
@@ -2124,13 +2092,7 @@
           "hex": "#D2B48C"
         }
       ],
-      "sizes": [
-        {
-          "height": "83 cm",
-          "width": "111 cm",
-          "depth": "33 cm"
-        }
-      ],
+      "sizes": ["L", "XL", "XS"],
       "rating": 4.9,
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Modern-Escrivaninha-Mega-Office-Branca-e-AmC3AAndoa-8175-198491-1.jpg",

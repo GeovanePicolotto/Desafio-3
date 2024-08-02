@@ -17,10 +17,12 @@ const ProductDetail: React.FC = () => {
     return <p>ID do produto inválido.</p>;
   }
 
+  
+
   return (
     <div>
       <Header/>
-      <ProductProvider productId={productId}>
+     <ProductProvider productId={productId}>
         <SingleProduct />
       </ProductProvider>
     </div>
