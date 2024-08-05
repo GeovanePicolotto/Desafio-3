@@ -1,4 +1,6 @@
-import { forwardRef } from 'react';
+// CartModal.tsx
+import React, { forwardRef } from 'react';
+import { useCart } from '../context/CartContext';
 
 interface CartModalProps {
   isOpen: boolean;
@@ -6,6 +8,8 @@ interface CartModalProps {
 }
 
 const CartModal = forwardRef<HTMLDivElement, CartModalProps>(({ isOpen, onClose }, ref) => {
+  const { cartItems } = useCart();
+
   if (!isOpen) return null;
 
   return (
@@ -19,15 +23,26 @@ const CartModal = forwardRef<HTMLDivElement, CartModalProps>(({ isOpen, onClose 
       >
         <img src="/src/imgs/closeIcon.png" alt="Fechar" />
       </div>
-      {/* Conteúdo do modal */}
       <div className="p-4">
         <h2>Carrinho</h2>
+        {cartItems.length === 0 ? (
+          <p>Seu carrinho está vazio.</p>
+        ) : (
+          <ul>
+            {cartItems.map(item => (
+              <li key={item.id}>
+                {item.title} - R${item.price.toFixed(2)}
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
 });
 
 export default CartModal;
+
 
 
 

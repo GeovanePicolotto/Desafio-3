@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useProduct } from '../context/ProductContext';
+import { useCart } from '../context/CartContext';
 import '../style.css';
 
 const ProductCard: React.FC = () => {
   const { product, loading, error } = useProduct();
   const [hasError, setHasError] = useState(false);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
+  const { addToCart } = useCart();  // Use o contexto do carrinho
 
-  // URL da imagem de fallback
   const fallbackImage = 'https://th.bing.com/th/id/OIP.o-YG9pqgAWzpXykwjsC9SwHaHa?w=192&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7';
 
   if (loading) {
@@ -30,6 +31,16 @@ const ProductCard: React.FC = () => {
   const handleClick = () => {
     if (product && product.id) {
       navigate(`/product/${product.id}`);
+    }
+  };
+
+  const handleAddToCart = () => {
+    if (product) {
+      addToCart({
+        id: product.id,
+        title: product.title,
+        price: product.salePrice
+      });
     }
   };
 
@@ -71,14 +82,19 @@ const ProductCard: React.FC = () => {
         </div>
       </div>
 
-      {/* Efeito de escurecimento e botão "Add To Cart" */}
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 flex items-center justify-center" 
            style={{ 
-             marginTop: '16px',   // Ajusta 17px no topo
-             marginLeft: '16px',  // Ajusta 17px na esquerda
-             marginRight: '16px'  // Ajusta 17px na direita
+             marginTop: '16px',
+             marginLeft: '16px',
+             marginRight: '16px'
            }}>
-        <button className="bg-yellow-400 text-white font-bold py-2 px-4 rounded shadow-md hover:bg-yellow-500">
+        <button 
+          className="bg-yellow-400 text-white font-bold py-2 px-4 rounded shadow-md hover:bg-yellow-500"
+          onClick={(e) => {
+            e.stopPropagation(); // Impede que o click no botão abra o modal
+            handleAddToCart();
+          }}
+        >
           Add To Cart
         </button>
       </div>
@@ -87,6 +103,7 @@ const ProductCard: React.FC = () => {
 };
 
 export default ProductCard;
+
 
 
 
