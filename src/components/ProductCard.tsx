@@ -8,7 +8,7 @@ const ProductCard: React.FC = () => {
   const { product, loading, error } = useProduct();
   const [hasError, setHasError] = useState(false);
   const navigate = useNavigate();
-  const { addToCart } = useCart();  // Use o contexto do carrinho
+  const { addItem } = useCart();  // Use o contexto do carrinho
 
   const fallbackImage = 'https://th.bing.com/th/id/OIP.o-YG9pqgAWzpXykwjsC9SwHaHa?w=192&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7';
 
@@ -36,10 +36,12 @@ const ProductCard: React.FC = () => {
 
   const handleAddToCart = () => {
     if (product) {
-      addToCart({
+      addItem({
         id: product.id,
         title: product.title,
-        price: product.salePrice
+        price: product.salePrice,
+        quantity: 1, // Defina a quantidade como 1 ao adicionar
+        image: product.images.mainImage
       });
     }
   };
@@ -103,6 +105,7 @@ const ProductCard: React.FC = () => {
 };
 
 export default ProductCard;
+
 
 
 
