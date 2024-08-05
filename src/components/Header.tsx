@@ -1,13 +1,20 @@
+// Header.tsx
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom'; // Atualize para useNavigate
 import NavBar from './NavBar';
 import CartModal from './CartModal';
 
 const Header: React.FC = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
   const modalRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate(); // useNavigate em vez de useHistory
+
+  const handleLoginClick = () => {
+    navigate('/login'); // Navega para a página de login
+  };
 
   const handleCartClick = () => {
-    setIsCartOpen(true);
+    setIsCartOpen(true); // Abre o modal do carrinho
   };
 
   const handleCloseModal = () => {
@@ -43,7 +50,9 @@ const Header: React.FC = () => {
           <img src="/src/imgs/furniro_logo.png" alt="Furniro Logo" />
           <NavBar />
           <div className="flex justify-center items-center w-24 gap-4">
-            <a href="#"><img src="/src/imgs/userLogo.png" alt="Ícone usuário" /></a>
+            <a href="#" onClick={handleLoginClick}>
+              <img src="/src/imgs/userLogo.png" alt="Ícone usuário" />
+            </a>
             <a href="#" onClick={handleCartClick}>
               <img src="/src/imgs/shopIcon.png" alt="Ícone carrinho de compras" />
             </a>
@@ -61,5 +70,9 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
+
+
+
 
 
