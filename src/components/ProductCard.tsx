@@ -91,9 +91,9 @@ const ProductCard: React.FC = () => {
              marginRight: '16px'
            }}>
         <button 
-          className="bg-yellow-400 text-white font-bold py-2 px-4 rounded shadow-md hover:bg-yellow-500"
+          className="w-[202px] h-[48px] bg-white text-amareloQueimado hover:bg-amareloQueimado hover:text-white transition-colors duration-300 ease-in-out"
           onClick={(e) => {
-            e.stopPropagation(); // Impede que o click no botão abra o modal
+            e.stopPropagation(); 
             handleAddToCart();
           }}
         >
