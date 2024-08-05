@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../config/firebaseConfig'; // Certifique-se de que o caminho está correto
+import Header from '../components/Header';
 
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -22,6 +23,8 @@ const LoginPage: React.FC = () => {
   };
 
   return (
+    <div>
+      <Header/>
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
@@ -56,6 +59,7 @@ const LoginPage: React.FC = () => {
           {loading ? 'Carregando...' : 'Entrar'}
         </button>
       </div>
+    </div>
     </div>
   );
 };
