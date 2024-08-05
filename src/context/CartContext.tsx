@@ -1,5 +1,5 @@
 // src/context/CartContext.tsx
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+import { createContext, useState, useContext, ReactNode } from 'react';
 
 interface CartItem {
   id: string;
@@ -13,6 +13,7 @@ interface CartContextType {
   cartItems: CartItem[];
   addItem: (item: CartItem) => void;
   removeItem: (id: string) => void; // Função para remover itens
+  updateItemQuantity: (id: string, quantity: number) => void; // Função para atualizar a quantidade
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -39,8 +40,16 @@ const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     setCartItems(prevItems => prevItems.filter(item => item.id !== id));
   };
 
+  const updateItemQuantity = (id: string, quantity: number) => {
+    setCartItems(prevItems => 
+      prevItems.map(item =>
+        item.id === id ? { ...item, quantity: Math.max(quantity, 1) } : item
+      )
+    );
+  };
+
   return (
-    <CartContext.Provider value={{ cartItems, addItem, removeItem }}>
+    <CartContext.Provider value={{ cartItems, addItem, removeItem, updateItemQuantity }}>
       {children}
     </CartContext.Provider>
   );
